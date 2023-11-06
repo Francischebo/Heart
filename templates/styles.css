@@ -1,0 +1,60 @@
+/* Apply styles to the body */
+body {
+    background-color: black;
+    text-align: center;
+}
+
+/* Apply styles to the login container */
+.login {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/* Apply styles to the h1 header */
+h1 {
+    color: blueviolet;
+}
+
+/* Apply styles to the input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Apply styles to the submit button */
+button[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Apply styles to the h4 element */
+h4 {
+    color: yellow;
+    margin-top: 10px;
+}
+
+/* Apply styles to the images */
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-container img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

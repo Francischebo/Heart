@@ -1,0 +1,40 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Heart Disease Percentage</title>
+    </head>
+    <body style="background-color: black;">
+    <div class="login">
+        <h1 style="color:blueviolet">Heart Disease Prediction System</h1>
+        <br>
+
+        <form action="{{ url_for('predict')}}"method="Post">
+            <input type="text" name="percent biking " placeholder="Percent of population biking " request="required"/>
+            <br>
+            <br>
+            <input type="text" name="percent smoking " placeholder="Percent of population smoking " request="required"/>
+            <br>
+            <br>
+            <p>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict Percent Population with Heart Disease</button>
+        </p>
+        </form>
+        <br>
+        <br>
+        <h4 style="color:yellow;">{{prediction_text}}</h4>
+
+
+        <div class="img-container">
+            <img src="Pictures/biking.png" alt="Image 1">
+            <img src="Pictures/smoking.png" alt="Image 2">
+            <img src="Pictures/heartdisease.png" alt="Image 3">
+        </div>
+        
+        
+
+    </div>
+    </body>
+    </html>
